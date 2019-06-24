@@ -51,7 +51,6 @@ setup(name='Products.%s' % NAME,
       include_package_data=True,
       namespace_packages=['Products'],
       zip_safe=False,
-      install_requires=['setuptools',
-                       ],
+      install_requires=['Zope'],
       test_suite='Products.%s' % NAME,
       )
